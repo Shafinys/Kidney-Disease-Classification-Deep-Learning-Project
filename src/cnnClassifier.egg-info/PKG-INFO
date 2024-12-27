@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/Shafinys/Kidney-Disease-Classification-Deep-Learning-Project
+Author: Shafinys
+Author-email: shafin.ys@gmail.com
+Project-URL: Bug Tracker, https://github.com/Shafinys/Kidney-Disease-Classification-Deep-Learning-Project/issues
+
+# Kidney-Disease-Classification-Deep-Learning-Project
+Kidney-Disease-Classification-Deep-Learning-Project
+
+## 1.0.0
+
+How to run the project:
+
+1. Clone the repository
+2. Install the dependencies
+3. Run the project
