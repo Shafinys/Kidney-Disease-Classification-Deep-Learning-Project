@@ -31,3 +31,44 @@ Traceback (most recent call last):
   File "/Users/shafins/Documents/Learning/M.Tech AI and ML/Sem 3/trialprojects/Kidney-Disease-Classification-Deep-Learning-Project/src/cnnClassifier/pipeline/stage_02_prepare_base_model.py", line 15, in main
     prepare_base_model_config = config.get_prepare_base_model_config()
 AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2024-12-29 12:46:10,027: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 12:46:10,029: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-12-29 12:46:10,030: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 12:46:10,030: INFO: common: Created directory at: artifacts]
+[2024-12-29 12:46:10,030: INFO: common: Created directory at: artifacts/data_ingestion]
+[2024-12-29 12:46:10,030: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-29 12:46:21,079: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-29 12:46:21,483: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 12:46:21,483: INFO: main: *******************]
+[2024-12-29 12:46:21,484: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-12-29 12:46:21,485: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-12-29 12:46:21,486: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 12:46:21,486: INFO: common: Created directory at: artifacts]
+[2024-12-29 12:46:21,486: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2024-12-29 12:46:21,959: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-29 12:46:22,033: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-12-29 12:46:22,034: WARNING: __init__: There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.SGD`.]
+[2024-12-29 12:46:22,080: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-12-29 12:46:22,080: INFO: main: *******************]
+[2024-12-29 12:46:22,080: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-12-29 12:46:22,081: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-12-29 12:46:22,082: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 12:46:22,082: INFO: common: Created directory at: artifacts]
+[2024-12-29 12:46:22,082: INFO: common: Created directory at: artifacts/training]
+[2024-12-29 12:46:52,552: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-12-29 12:46:52,552: INFO: main: *******************]
+[2024-12-29 12:46:52,552: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-12-29 12:46:52,554: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-12-29 12:46:52,555: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 12:46:52,555: INFO: common: Created directory at: artifacts]
+[2024-12-29 12:47:01,772: INFO: common: json file saved at: scores.json]
+[2024-12-29 12:47:01,773: INFO: common: json file saved at: scores.json]
+[2024-12-29 12:47:01,773: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
